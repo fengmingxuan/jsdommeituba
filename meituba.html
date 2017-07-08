@@ -6,7 +6,13 @@
 </head>
 <body>
 <script>
-
+    var myUtil = require('./myUtil.js');
+//    var $ = require('jQuery');
+    var url="http://movie.douban.com/subject/11529526";
+    console.log(url);
+    myUtil.get(url,function(content,status){
+        console.log("status:="+status);
+    });
 </script>
 </body>
 </html>

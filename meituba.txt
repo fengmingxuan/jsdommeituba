@@ -6,7 +6,7 @@ Make this directory a root of your project (this will create a default package.j
 
 npm init --yes
 Install required npm module and save it as a project dependency (it will appear in package.json)
-
+https://stackoverflow.com/questions/16482600/node-js-cannot-find-module-request
 npm install request --save
 Create a test.js file in project directory with code from package example
 
